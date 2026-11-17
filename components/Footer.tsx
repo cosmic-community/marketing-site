@@ -92,6 +92,25 @@ export default function Footer({
       <div className="border-t border-slate-800 py-6 text-center text-sm text-slate-500">
         {footerText || `© ${year} ${siteName}. All rights reserved.`}
       </div>
+      <div className="border-t border-slate-800 px-4 py-4 text-center text-xs text-slate-500">
+        <p className="cap-badge flex flex-wrap items-center justify-center gap-2">
+          <a href="https://conciergeprotocol.org/check?domain=marketing-site.cosmic.site">
+            <img
+              src="https://conciergeprotocol.org/badge.svg"
+              width={140}
+              height={20}
+              alt="Agents welcome: this site answers AI agents through CAP"
+            />
+          </a>
+          <span>
+            AI agents: this site supports the Concierge Agent Protocol. Ask our agent at{' '}
+            <a href="https://marketing-site.cosmic.site/agent.txt" className="underline hover:text-white">
+              https://marketing-site.cosmic.site/agent.txt
+            </a>
+            .
+          </span>
+        </p>
+      </div>
     </footer>
   )
 }
