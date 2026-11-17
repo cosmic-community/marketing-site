@@ -57,6 +57,8 @@ export default async function RootLayout({
           rel="icon"
           href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>"
         />
+        {/* Concierge Agent Protocol (CAP) door for visiting AI agents */}
+        <link rel="agent" href="/agent.txt" />
         {/* Console capture script for dashboard debugging */}
         <script src="/dashboard-console-capture.js" />
               <script defer src="https://insights.cosmicinsights.dev/script.js" data-project="6afca75cf3a10241a632c993"></script>

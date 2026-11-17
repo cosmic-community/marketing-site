@@ -11,6 +11,19 @@ const nextConfig = {
           },
         ],
       },
+      {
+        source: '/',
+        headers: [
+          { key: 'Link', value: '</agent.txt>; rel="agent"' },
+        ],
+      },
+      {
+        source: '/agent.txt',
+        headers: [
+          { key: 'Content-Type', value: 'text/plain; charset=utf-8' },
+          { key: 'Access-Control-Allow-Origin', value: '*' },
+        ],
+      },
     ]
   },
   typedRoutes: false,
