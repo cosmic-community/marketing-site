@@ -78,6 +78,12 @@ export default async function RootLayout({
           address={getMetafieldValue(meta?.address)}
         />
         <CosmicBadge bucketSlug={bucketSlug} />
+        {/* Concierge chat widget */}
+        <script
+          src="https://www.cosmicjs.com/agent.js"
+          data-key="pk_f5775eed33347ed1b2e89a3bb0eff4f9"
+          async
+        />
       </body>
     </html>
   )
