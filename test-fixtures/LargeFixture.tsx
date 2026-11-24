@@ -601,7 +601,7 @@ export default function LargeFixture() {
       <div className="row-597">Row 597</div>
       <div className="row-598">Row 598</div>
       <div className="row-599">Row 599</div>
-      <div data-marker="MIDDLE_TARGET">Middle target</div>
+      <section data-marker="MIDDLE_TARGET">Middle target</section>
       <div className="row-601">Row 601</div>
       <div className="row-602">Row 602</div>
       <div className="row-603">Row 603</div>
